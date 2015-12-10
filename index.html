@@ -2,9 +2,6 @@
     <head>
         <meta charset="utf-8"/>
         <title>:::Adam Asmaca:::</title>
-        <h1 style "color=Green">Adam Asmamaca</h1>
-        <h2 style "color=DeepPink">Adam Asmadan Adam Asmaca Oynayalım...</h2>
-        <img src= "adamas0.jpg">
         <script src="adamAs.js"></script>
     </head>
     <body>
@@ -14,7 +11,20 @@
         <script>document.getElementById("secilenKelimeGoster").innerHTML = secilenKelime</script>
         <p id="harfTutucuGoster"></p>
         <script>document.getElementById("harfTutucuGoster").innerHTML = harfTutucu.join('&nbsp');</script>
-        
+        <p>
+            <form id="frm1">
+                <input type="text" name="girilenHarf" maxlength="1" autofocus/>
+            </form>
+            <button onclick="myFunction()">Harfi Sorgula</button>
+            <script>
+                function myFunction() {
+                var x = document.getElementById("frm1");
+                harfKontrol(x.elements[0].value);
+                x.elements[0].value = null;
+                x.elements[0].focus();
+                }          
+            </script>
+        </p>
         </center>
     </body>
 </html>
