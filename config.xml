@@ -1,9 +1,8 @@
 
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         id          = "bby261.gizemtelli.adamas"
-versionCode = "10" 
         version     = "1.0.0" >
 
     <!-- Standart Uygulama Verileri -->
@@ -29,8 +28,7 @@ versionCode = "10"
         
     <!-- Açılış Ekranı ve İkon -->
      
-    <icon src="icon.png" />
-    <gap:splash src="splash.png" />
+    <icon src= "icon.png"/>
     <preference name="splash-screen-duration" value="2000"/>
         
     <!-- Uygulama Hakları -->
