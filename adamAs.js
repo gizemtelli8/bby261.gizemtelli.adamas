@@ -18,7 +18,7 @@ var kelimeler = new Array('kütüphane','koleksiyon','veri tabanı','açık eri�
 //     for (var i=0; i<harfSayisi; i++){ 
          bulunanHarfNo = secilenKelime.indexOf(secilenHarf); 
          if (bulunanHarfNo == -1){
-          hataliysayisi()   
+          hatalisayisi()   
          } else {
          harfTutucu[bulunanHarfNo] = secilenHarf; 
          document.getElementById("harfTutucuGoster").innerHTML = harfTutucu.join('&nbsp');
@@ -26,7 +26,7 @@ var kelimeler = new Array('kütüphane','koleksiyon','veri tabanı','açık eri�
     // } 
  } 
 
-function hataliysayisi(){
+function hatalisayisi(){
 hataSayisi += 1
 console.log(hataSayisi)
 if (hataSayisi == 3){
