@@ -9,9 +9,9 @@
 
     <name>Adam Asmaca</name>
 
-    <description>
-       Adam Asmaca Oyunu
+    
     </description>
+        Adam Asmaca Oyunu
 
     <author href="gizemtellitumblr.com" email="gizemtelli8@gmail.com">
         Gizem Telli
@@ -38,3 +38,4 @@
     <preference name="permissions" value="none"/>
         
 </widget>
+

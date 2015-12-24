@@ -18,7 +18,7 @@ var kelimeler = new Array('kütüphane','koleksiyon','veri tabanı','açık eri�
 //     for (var i=0; i<harfSayisi; i++){ 
          bulunanHarfNo = secilenKelime.indexOf(secilenHarf); 
          if (bulunanHarfNo == -1){
-          hatalisayisi()   
+          hataliysayisi()   
          } else {
          harfTutucu[bulunanHarfNo] = secilenHarf; 
          document.getElementById("harfTutucuGoster").innerHTML = harfTutucu.join('&nbsp');
@@ -26,29 +26,28 @@ var kelimeler = new Array('kütüphane','koleksiyon','veri tabanı','açık eri�
     // } 
  } 
 
-function hatalisayisi(){
+function hataliysayisi(){
 hataSayisi += 1
 console.log(hataSayisi)
-if (hataSayisi == 4){
-console.log("Adam Asılsın")
-document.getElementById('klavye').innerHTML="Kaybettin Adios :)"
+if (hataSayisi == 3){
+console.log("Vurun kellesini")
+document.getElementById('klavye').innerHTML="KAYBETTİN ADİOS :)"
 }
 adamAs()
 }
 
 function adamAs(){
 	switch(hataSayisi) {
-    	
     	case 1:
         	document.getElementById('adam').src="adamas1.png"
         break;
+    	case 2:
+        	document.getElementById('adam').src="adamas2.png"
+        break;
 			case 2:
-					document.getElementById('adam').src="adamas2.png"
-				break;
-			case 3:
 					document.getElementById('adam').src="adamas3.png"
 				break;
-            case 4:
+			case 3:
 					document.getElementById('adam').src="adamas4.png"
 				break;
 	}
