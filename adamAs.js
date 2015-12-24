@@ -44,10 +44,10 @@ function adamAs(){
     	case 2:
         	document.getElementById('adam').src="adamas2.png"
         break;
-			case 2:
+			case 3:
 					document.getElementById('adam').src="adamas3.png"
 				break;
-			case 3:
+			case 4:
 					document.getElementById('adam').src="adamas4.png"
 				break;
 	}
