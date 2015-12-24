@@ -1,44 +1,41 @@
-<?xml version="1.0" encoding="UTF-8" ?> 
-     <widget xmlns   = "http://www.w3.org/ns/widgets" 
-         xmlns:gap   = "http://phonegap.com/ns/1.0" 
-         id          = "bby261.gizemtelli.adamas" 
-         versionCode = "10"  
-         version     = "1.0.0" > 
- 
- 
-     <!-- Standart Uygulama Verileri --> 
- 
- 
-     <name>Adam Asmaca</name> 
- 
- 
-     <description> 
-        Adam Asmaca  Oyunu
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "bby261.gizemtelli.adamas"
+        versionCode = "10" 
+        version     = "1.0.0" >
 
- 
- 
-     <author> 
-      Gizem Telli
-     </author> 
-          
-     <!-- Derleme Platformu --> 
-          
-     <gap:platform name="android" /> 
-          
-     <!-- Ek Özellikler --> 
- 
- 
-     <!-- <preference name="orientation" value="landscape" /> --> 
-     <preference name="fullscreen" value="false" /> 
-          
-     <!-- Açılış Ekranı ve İkon --> 
+    <!-- Standart Uygulama Verileri -->
+
+    <name>Adam Asmaca</name>
+
+    <description>
+        Adam Asmaca Uygulaması
+    </description>
+
+    
        
-     <icon src="icon.png" /> 
-     <gap:splash src="splash.png" /> 
-     <preference name="splash-screen-duration" value="2000"/> 
-          
-     <!-- Uygulama Hakları --> 
-      
-     <preference name="permissions" value="none"/> 
-          
- </widget> 
+    </author>
+        Gizem Telli
+        
+        
+    <!-- Derleme Platformu -->
+        
+    <gap:platform name="android" />
+        
+    <!-- Ek Özellikler -->
+
+    <!-- <preference name="orientation" value="landscape" /> -->
+    <preference name="fullscreen" value="false" />
+        
+    <!-- Açılış Ekranı ve İkon -->
+     
+    <icon src="icon.png" />
+    <gap:splash src="splash.png" />
+    <preference name="splash-screen-duration" value="2000"/>
+        
+    <!-- Uygulama Hakları -->
+    
+    <preference name="permissions" value="none"/>
+        
+</widget>
