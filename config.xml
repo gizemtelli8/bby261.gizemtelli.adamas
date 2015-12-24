@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "bby261.gizemtelli.adamas"
+        id          = "net.madran.bby261.sayisalLoto"
         versionCode = "1" 
         version     = "0.0.1" >
 
@@ -10,11 +10,11 @@
     <name>Adam Asmaca</name>
 
     <description>
-        Adam Asmaca çalışması
+       Adam Asmaca Oyunu
     </description>
 
-    <author>
-       Gizem Telli
+    <author href="gizemtellitumblr.com" email="gizemtelli8@gmail.com">
+        Gizem Telli
     </author>
         
     <!-- Derleme Platformu -->
@@ -29,7 +29,7 @@
         
     <!-- Açılış Ekranı ve İkon -->
      
-    <icon src="icon.png"
+    <icon src="icon.png" />
     <gap:splash src="splash.png" />
     <preference name="splash-screen-duration" value="2000"/>
         

@@ -1,30 +1,42 @@
-<html>
-    <head>
-        <meta charset="utf-8"/>
-        <title>:::Adam Asmaca:::</title>
-        <script src="adamAs.js"></script>
-    </head>
-    <body>
-        <center>
-        <h1>___ Adam Asmaca ___</h1>
-        <h2>Seçilen Kelime: <span id="secilenKelimeGoster">Seçilen kelime</span></h2>
-        <script>document.getElementById("secilenKelimeGoster").innerHTML = secilenKelime</script>
-        <p id="harfTutucuGoster"></p>
-        <script>document.getElementById("harfTutucuGoster").innerHTML = harfTutucu.join('&nbsp');</script>
-        <p>
-            <form id="frm1">
-                <input type="text" name="girilenHarf" maxlength="1" autofocus/>
-            </form>
-            <button onclick="myFunction()">Harfi Sorgula</button>
-            <script>
-                function myFunction() {
-                var x = document.getElementById("frm1");
-                harfKontrol(x.elements[0].value);
-                x.elements[0].value = null;
-                x.elements[0].focus();
-                }          
-            </script>
-        </p>
-        </center>
-    </body>
-</html>
+<<html> 
+     <head> 
+         <meta charset="utf-8"/> 
+         <title>Adam Asmaca</title> 
+         <script src="adamas.js"></script> 
+     </head> 
+      <style> 
+      
+             body {  
+                 background-image:url(arkaplan.jpg); 
+     background-color: #cccccc; 
+             } 
+     
+     </style> 
+     <body> 
+         <center> 
+         <h1 style="color:purple">Adam Asmaca</h1> 
+         
+        <img id='adam' style="width:70%"> </img>
+         <script>document.getElementById("secilenKelimeGoster").innerHTML = secilenKelime</script> 
+         <p id="harfTutucuGoster"></p> 
+         <script>document.getElementById("harfTutucuGoster").innerHTML = harfTutucu.join('&nbsp');</script> 
+         <p>
+             <div id="klavye">
+             <form id="frm1"> 
+                 <input type="text" name="girilenHarf" maxlength="1" autofocus/> 
+             </form> 
+             <button onclick="myFunction()">Harfi Sorgula</button>
+    </div>
+             <script> 
+                 function myFunction() { 
+                 var x = document.getElementById("frm1"); 
+                 harfKontrol(x.elements[0].value); 
+                 x.elements[0].value = null; 
+                 x.elements[0].focus(); 
+                 }           
+             </script> 
+         </p> 
+         </center> 
+     </body> 
+ </html> 
+
