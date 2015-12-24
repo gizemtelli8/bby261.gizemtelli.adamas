@@ -29,8 +29,8 @@ var kelimeler = new Array('kütüphane','koleksiyon','veri tabanı','açık eri�
 function hatalisayisi(){
 hataSayisi += 1
 console.log(hataSayisi)
-if (hataSayisi == 3){
-console.log("Vurun kellesini")
+if (hataSayisi == 4){
+console.log("Adamı Asın")
 document.getElementById('klavye').innerHTML="KAYBETTİN ADİOS :)"
 }
 adamAs()
